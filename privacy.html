@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Obsidian GSync</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 24px;
+            line-height: 1.8;
+            color: #333;
+        }
+        h1, h2 { color: #7057c8; }
+        a { color: #7057c8; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p>Last updated: November 19, 2026</p>
+
+<h2>1. Overview</h2>
+<p>
+Obsidian GSync is a personal project for synchronizing
+Obsidian notes between devices using Google Drive.
+It uses the Google Drive API through a user-owned
+Google Cloud OAuth application.
+</p>
+
+<h2>2. Information Accessed</h2>
+<p>
+The application accesses files and folders in the
+Google Drive folder configured by the user.
+This may include file names, contents, modification
+times, sizes, and checksums.
+</p>
+<p>
+The application requests the Google Drive scope:
+https://www.googleapis.com/auth/drive
+This permission is broader than the configured
+sync folder. The plugin's synchronization operations
+are limited to the folder selected by the user.
+</p>
+
+<h2>3. How Information Is Used</h2>
+<p>
+Information is used only to synchronize files between
+the user's local Obsidian vault and Google Drive.
+Files are listed, downloaded, uploaded, or moved
+to the trash as required by synchronization.
+</p>
+
+<h2>4. Data Storage and Sharing</h2>
+<p>
+Files remain on the user's devices and in the user's
+Google Drive account.
+OAuth credentials and refresh tokens are stored locally
+in the Obsidian plugin configuration on each device.
+</p>
+<p>
+This project does not operate a server for collecting
+or storing users' notes or OAuth tokens. Data is
+transferred directly between the user's devices
+and Google's services.
+</p>
+<p>
+No advertising, analytics, or AI model training
+is performed by this project.
+</p>
+
+<h2>5. OAuth Authentication</h2>
+<p>
+Google OAuth is used to authorize access to Google Drive.
+The sign-in redirect page transfers the one-time
+authorization code back to Obsidian and does not
+store that code on a server.
+</p>
+
+<h2>6. Third-Party Services</h2>
+<p>
+Google Drive and Google OAuth are subject to
+Google's privacy policy and terms of service.
+</p>
+<p>
+Google Privacy Policy:
+<a href="https://policies.google.com/privacy">
+https://policies.google.com/privacy
+</a>
+</p>
+
+<h2>7. Revoking Access</h2>
+<p>
+Users can revoke the application's Google account
+access at any time through their Google Account:
+<a href="https://myaccount.google.com/permissions">
+Google Account Permissions
+</a>.
+</p>
+
+<h2>8. Contact</h2>
+<p>
+For questions about this project, please contact
+the repository owner through the project's
+GitHub repository.
+</p>
+<p>
+<a href="https://github.com/TianPL426/ttsnackobsidian">
+Obsidian GSync Project
+</a>
+</p>
+
+</body>
+</html>
